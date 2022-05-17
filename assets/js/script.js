@@ -18,12 +18,26 @@ console.log(Divide(150, 2));
 // Repeat ("Ha!", 2) //Ha!Ha!
 // Repeat ("Ha!", 3) //Ha!Ha!Ha!
 
+
+
+
+//Console-log ucun
+function Repeat(word, count = 3) {
+    let result = ""
+    for (let index = 0; index < count; index++) {
+        result += word;
+    }
+    console.log(result)
+} 
+
+Repeat("Ha!", 3);
+
+// html ekrani ucun
 function Repeat(word, count = 3) {
     for (let index = 0; index < count; index++) {
         document.write(word);
     }
 }
-Repeat("Ha!", 3);
 
 // Task 2 End
 
